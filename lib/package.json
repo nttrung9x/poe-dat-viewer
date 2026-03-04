@@ -1,0 +1,26 @@
+{
+  "name": "pathofexile-dat",
+  "version": "15.0.0",
+  "type": "module",
+  "bin": "./dist/cli/run.js",
+  "exports": {
+    "./bundles.js": "./dist/bundles.js",
+    "./dat.js": "./dist/dat.js"
+  },
+  "files": ["dist/**/*"],
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/SnosMe/poe-dat-viewer"
+  },
+  "dependencies": {
+    "ooz-wasm": "^2.0.0",
+    "pathofexile-dat-schema": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.27",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

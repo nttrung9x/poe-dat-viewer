@@ -1,0 +1,53 @@
+{
+  "name": "poe-dat-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint --ext .ts,.vue src",
+    "build": "npm run lint && vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vscode/codicons": "^0.0.36",
+    "comlink": "^4.4.2",
+    "evt": "^2.5.9",
+    "expiry-map": "^2.0.0",
+    "file-saver": "^2.0.5",
+    "idb": "^8.0.3",
+    "neverthrow": "^8.2.0",
+    "pathofexile-dat": "^15.0.0",
+    "pathofexile-dat-schema": "^8.0.0",
+    "string-metric": "^0.3.3",
+    "tailwindcss": "^3.4.19",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.2",
+    "eslint-config-love": "^137.0.0",
+    "eslint-plugin-vue": "^10.6.2",
+    "postcss": "^8.5.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vue-tsc": "^3.1.8"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss/nesting": {},
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
